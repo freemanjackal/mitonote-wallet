@@ -98,13 +98,13 @@
     </qresource>
     <qresource prefix="/images">
         <file alias="splash">images/splash.png</file>
-        <file alias="chavezcoin_lin">images/chavezcoin.png</file>
+        <file alias="mitocoin_lin">images/mitocoin.png</file>
         <file alias="add_address_helper">images/add_address_helper.png</file>
-        <file alias="chavezcoin_mac">images/chavezcoin.icns</file>
-        <file alias="chavezcoin_win">images/chavezcoin.ico</file>
+        <file alias="mitocoin_mac">images/mitocoin.icns</file>
+        <file alias="mitocoin_win">images/mitocoin.ico</file>
     </qresource>
     <qresource prefix="/style">
-        <file alias="qss">chavezcoinwallet.qss</file>
+        <file alias="qss">mitocoinwallet.qss</file>
     </qresource>
     <qresource prefix="/font">
         <file alias="Bold">font/OpenSans-Bold.ttf</file>

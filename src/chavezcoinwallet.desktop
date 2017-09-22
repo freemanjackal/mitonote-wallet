@@ -1,10 +1,10 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Chavezcoin Wallet
-Comment=Chavezcoin wallet
-Exec=chavezcoinwallet %U
+Name=Mitocoin Wallet
+Comment=Mitocoin wallet
+Exec=mitocoinwallet %U
 Terminal=false
 Type=Application
-Icon=chavezcoin
-MimeType=x-scheme-handler/chavezcoin;
+Icon=mitocoin
+MimeType=x-scheme-handler/mitocoin;
 Categories=Office;Finance;

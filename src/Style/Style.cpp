@@ -2,18 +2,18 @@
 //
 // This file is part of Bytecoin.
 //
-// Chavezcoin is free software: you can redistribute it and/or modify
+// Mitocoin is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// Chavezcoin is distributed in the hope that it will be useful,
+// Mitocoin is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with Chavezcoin.  If not, see <http://www.gnu.org/licenses/>.
+// along with Mitocoin.  If not, see <http://www.gnu.org/licenses/>.
 
 #include <QIcon>
 
@@ -133,11 +133,11 @@ QString Style::glassColor() const {
 
 QIcon Style::getSystemTrayIcon() const {
 #ifdef Q_OS_MAC
-  return QIcon(":images/chavezcoin_mac");
+  return QIcon(":images/mitocoin_mac");
 #elif defined(Q_OS_LINUX)
-  return QIcon(":images/chavezcoin_lin");
+  return QIcon(":images/mitocoin_lin");
 #elif defined(Q_OS_WIN)
-  return QIcon(":images/chavezcoin_win");
+  return QIcon(":images/mitocoin_win");
 #endif
 }
 
